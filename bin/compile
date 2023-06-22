@@ -9,7 +9,7 @@ cd peazip
 
 ls
 
-peazip
+./peazip
 
 
 # Add bsdtar to the PATH
