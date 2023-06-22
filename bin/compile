@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Download and extract bsdtar
+
+# Optionally, move bsdtar to a specific location
+# mv bsdtar /path/to/destination
+
+# Ensure bsdtar is executable
+chmod +x bsdtar
+
+# Add bsdtar to the PATH
+echo "export PATH=\$PATH:\$HOME/bsdtar" >> $BUILD_DIR/.profile.d/bsdtar
