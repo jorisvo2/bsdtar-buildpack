@@ -3,7 +3,7 @@
 # Download and extract bsdtar
 
 # Optionally, move bsdtar to a specific location
-../bsdtar
+./bsdtar
 
 
 # Add bsdtar to the PATH
