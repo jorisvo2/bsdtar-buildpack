@@ -2,11 +2,12 @@
 
 # Download and extract bsdtar
 
-# Optionally, move bsdtar to a specific location
-mv bsdtar /bin
-
 # Ensure bsdtar is executable
-chmod +x bsdtar
+chmod 777 bsdtar
+
+# Optionally, move bsdtar to a specific location
+mv ./bsdtar /bin
+
 
 # Add bsdtar to the PATH
 # echo "export PATH=\$PATH:\$HOME/bsdtar" >> $BUILD_DIR/.profile.d/bsdtar
