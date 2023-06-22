@@ -3,7 +3,7 @@
 # Download and extract bsdtar
 
 # Ensure bsdtar is executable
-chmod 777 bsdtar
+chmod 777 ./bsdtar
 
 # Optionally, move bsdtar to a specific location
 mv ./bsdtar /bin
