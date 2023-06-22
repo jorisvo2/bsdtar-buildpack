@@ -9,4 +9,4 @@ mv bsdtar /bin
 chmod +x bsdtar
 
 # Add bsdtar to the PATH
-echo "export PATH=\$PATH:\$HOME/bsdtar" >> $BUILD_DIR/.profile.d/bsdtar
+# echo "export PATH=\$PATH:\$HOME/bsdtar" >> $BUILD_DIR/.profile.d/bsdtar
