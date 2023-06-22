@@ -5,7 +5,11 @@
 # Optionally, move bsdtar to a specific location
 ls
 
-./bsdtar
+cd peazip
+
+ls
+
+peazip
 
 
 # Add bsdtar to the PATH
